@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.main-bg {
+  display: flex;
+  flex-direction: row;
+}
+
+.bg {
+  background-color: #64748b;
+  width: 65%;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.un-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.status-img {
+  width: 80%;
+}
+.status-container {
+  width: 35%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
